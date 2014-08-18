@@ -1,4 +1,6 @@
-# Angularjs::File::Upload
+[![Gem Version](https://badge.fury.io/rb/angularjs-file-upload-rails.svg)](http://badge.fury.io/rb/angularjs-file-upload-rails)
+
+# AngularJS File Upload
 
 A gem that uses [angular-file-upload](https://github.com/nervgh/angular-file-upload) as an asset in the Rails Asset Pipeline.
 
