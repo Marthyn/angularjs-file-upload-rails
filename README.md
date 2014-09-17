@@ -9,7 +9,7 @@ A gem that uses [angular-file-upload](https://github.com/nervgh/angular-file-upl
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'angularjs-file-upload-rails', '~> 1.0.1'
+gem 'angularjs-file-upload-rails', '~> 1.1.0'
 ```
 
 And then execute:
