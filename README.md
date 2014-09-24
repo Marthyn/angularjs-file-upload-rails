@@ -33,6 +33,66 @@ Include it in your JavaScript manifest (e.g. `application.js`)
 ```
 \* *be sure that angular is required before angularjs-file-upload*
 
+## Read more
+
+read more about the options in [angular-file-upload-wiki](https://github.com/nervgh/angular-file-upload/wiki/Introduction) 
+
+## Basic example 
+
+\* *assuming thet you have setup an ```angularjs``` correctly in your rails app
+
+```ruby
+  gem 'angularjs-file-upload-rails', '~> 1.1.0'
+  gem 'carrierwave'
+  gem 'rails', '4.1.5'
+```
+
+Setup your carrierwave gem as discribed in the [carrierwave-readme](https://github.com/carrierwaveuploader/carrierwave)
+
+add ```angularjs-file-upload-rails``` to your gem file
+add 
+
+```javascript
+//= require angularjs-file-upload
+```
+
+to ```application.js```
+
+in the angular file
+
+```javascript
+  angular
+    .module('app', ['angularFileUpload'])
+    .controller('AppController', function($scope, FileUploader) {
+        $scope.uploader = new FileUploader({url: '<your controller path>'});
+    });
+```
+
+in your view
+
+```html
+<div ng-app="app">
+    <div ng-controller="AppController">
+        <input type="file" nv-file-select uploader="uploader"/><br/>
+    </div>
+</div>
+```
+
+in your controller
+
+```ruby
+class UsersController < ApplicationController
+
+  def create
+    user = User.new()
+    //other params
+    user.picture = params[:file]
+    user.save
+  end
+
+end
+```
+
 ## Contributing
 
 1. Fork it
