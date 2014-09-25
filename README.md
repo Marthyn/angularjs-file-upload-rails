@@ -39,7 +39,7 @@ read more about the options in [angular-file-upload-wiki](https://github.com/ner
 
 ## Basic example 
 
-\* *assuming thet you have setup an ```angularjs``` correctly in your rails app
+\* *assuming that you have setup an ```angularjs``` correctly in your rails app
 
 ```ruby
   gem 'angularjs-file-upload-rails', '~> 1.1.0'
