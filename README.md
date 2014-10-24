@@ -9,7 +9,7 @@ A gem that uses [angular-file-upload](https://github.com/nervgh/angular-file-upl
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'angularjs-file-upload-rails', '~> 1.1.0'
+gem 'angularjs-file-upload-rails', '~> 1.1.5'
 ```
 
 And then execute:
@@ -42,7 +42,7 @@ read more about the options in [angular-file-upload-wiki](https://github.com/ner
 \* *assuming that you have setup an ```angularjs``` correctly in your rails app
 
 ```ruby
-  gem 'angularjs-file-upload-rails', '~> 1.1.0'
+  gem 'angularjs-file-upload-rails', '~> 1.1.5'
   gem 'carrierwave'
   gem 'rails', '4.1.5'
 ```
