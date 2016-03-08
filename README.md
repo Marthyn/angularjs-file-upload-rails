@@ -44,7 +44,7 @@ read more about the options in [angular-file-upload-wiki](https://github.com/ner
 ```ruby
   gem 'angularjs-file-upload-rails', '~> 2.2.0'
   gem 'carrierwave'
-  gem 'rails', '4.1.5'
+  gem 'rails', '4.2.5.1'
 ```
 
 Setup your carrierwave gem as discribed in the [carrierwave-readme](https://github.com/carrierwaveuploader/carrierwave)
