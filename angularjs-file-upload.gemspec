@@ -5,7 +5,7 @@ Gem::Specification.new do |spec|
   spec.name          = "angularjs-file-upload-rails"
   spec.version       = AngularjsFileUpload::VERSION
   spec.authors       = ["Marthyn Olthof"]
-  spec.email         = ["Marthyn@live.nl"]
+  spec.email         = ["info@voxapex.com"]
   spec.description   = %q{Angular File Upload is a module for the AngularJS framework.}
   spec.summary       = %q{It supports drag-n-drop upload, upload progress, validation filters and a file upload queue.
                           It supports native HTML5 uploads, but degrades to a legacy iframe upload method for older browsers.
